@@ -1,5 +1,10 @@
-streamlit
+#streamlit
+#pandas==1.5.3
+#plotly
+#numpy
+#openai
+
+streamlit==1.32.0
 pandas==1.5.3
-plotly
-numpy
-openai
+numpy==1.24.4
+plotly==5.18.0
