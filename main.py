@@ -361,7 +361,7 @@ def color_status(val):
     if "주의" in val: return "background-color:#FAEEDA; color:#412402"
     return "background-color:#EAF3DE; color:#173404"
 
-styled = df.style.applymap(color_status, subset=["상태"])
+styled = df.style.map(color_status, subset=["상태"])
 st.dataframe(styled, use_container_width=True, hide_index=True)
 
 # ─────────────────────────────────────────
